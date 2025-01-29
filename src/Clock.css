@@ -1,0 +1,27 @@
+:root{
+    background-color: rgb(127, 127, 127);
+}
+
+.clock-container{
+    padding: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding-top: 50px;
+    height: 40%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Roboto Mono';
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: rgb(163, 163, 163)
+}
+
+.clock-container h2{
+    font-size: 5rem;
+}
+

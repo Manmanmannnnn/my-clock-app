@@ -1,4 +1,5 @@
 import React,{useState,useRef,useEffect} from "react";
+import './Stopwatch.css'
 function Timer(){
     const [isRunning,setIsRunning]=useState(false);
     const [elapsedTime, setElapsedTime]=useState(0);
@@ -55,11 +56,14 @@ function Timer(){
 
     return(
             <div className="stopwatch">
+                <h2>Stop Watch</h2>
                     <div className="display">{formatTime()}</div>
                     <div className="controls"></div>
-                    <button className="startButton" onClick={start}>Start</button>
-                    <button className="stopButton" onClick={stop}>Stop</button>
-                    <button className="resetButton" onClick={reset}>Reset</button>
+                    <div className="buttons">
+                        <button className="startButton" onClick={start}>Start</button>
+                        <button className="stopButton" onClick={stop}>Stop</button>
+                        <button className="resetButton" onClick={reset}>Reset</button>
+                    </div>
             </div>
 
     );

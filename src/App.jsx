@@ -1,12 +1,12 @@
-import MyClock from "./clock"
-import Timer from "./timer"
+import MyClock from "./Clock"
+import Timer from "./Stopwatch"
 
 function App() {
 
 
   return (
     <>
-      {/* <MyClock/> */}
+      <MyClock/>
       <Timer/>
     </>
   )

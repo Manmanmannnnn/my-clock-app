@@ -1,0 +1,42 @@
+.stopwatch{
+    border-radius: 20px;
+    padding-top: 100px;
+    height: 40vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: baseline;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Roboto Mono';
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+   
+}
+
+h2{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button{
+    padding: 15px 25px;
+    background-color: rgb(105, 104, 104);
+    font-size: 3rem;
+    border-radius: 20px;
+}
+
+button:hover{
+
+    background-color: rgb(130, 130, 130);
+    transition: 1s ease;
+;
+}

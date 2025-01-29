@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from "react";
+import './Clock.css'
 
 function MyClock(){
     const [hour,setHour]=useState('00');
@@ -36,8 +37,9 @@ function MyClock(){
 
 
     return(
-        <div>
-            <span className="clock-container">{formatHour(formatTime(hour))}: {formatTime(minute)}: {formatTime(second)} {meridiem(hour)}</span>
+        <div className="clock-container">
+            <h2>Clock</h2>
+            <span className="clock">{formatTime(formatHour(hour))}: {formatTime(minute)}: {formatTime(second)} {meridiem(hour)}</span>
         </div>
     );
 }
